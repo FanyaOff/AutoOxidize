@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "autooxidize",
+  "version": "1.0-SNAPSHOT",
+  "name": "AutoOxidize",
+  "description": "A utility mod for Minecraft that automates the process of creating copper blocks at specific oxidation stages.",
+  "authors": [ "Fanya" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/autooxidize/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fanya.autooxidize.AutoOxidize"
+    ]
+  },
+  "mixins": [
+    "autooxidize.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.21"
+  }
+}

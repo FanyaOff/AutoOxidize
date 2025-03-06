@@ -1,0 +1,37 @@
+{
+  "autooxidize.command.start": "Начинаю процесс создания %s медного блока стадии: %s с дефолтными задержками",
+  "autooxidize.command.start_custom": "Начинаю процесс создания %s медного блока стадии %s с задержками: размещение - %d тиков, очистка - %d тиков, добыча - %d тиков, цикл - %d тиков",
+  "autooxidize.command.invalid_stage": "Неверная стадия. Доступные стадии: NORMAL, EXPOSED, WEATHERED, OXIDIZED",
+  "autooxidize.command.stopped": "Процесс остановлен",
+
+  "autooxidize.block_type.waxed": "вощеного",
+  "autooxidize.block_type.normal": "обычного",
+
+  "autooxidize.error.no_copper_block": "§cБлок меди не обнаружен на позиции!",
+  "autooxidize.error.no_copper_after_wax": "§cБлок меди не обнаружен на позиции после снятия воска!",
+  "autooxidize.error.no_copper_scraping": "§cБлок меди не обнаружен на позиции во время очистки!",
+  "autooxidize.error.no_copper_after_scrape": "§cБлок меди не обнаружен на позиции после очистки!",
+  "autooxidize.error.no_axe": "§cНе найден топор в инвентаре!",
+  "autooxidize.error.no_pickaxe": "§cНе найдена кирка в инвентаре!",
+  "autooxidize.error.no_block": "§cНе найден нужный блок в инвентаре!",
+  "autooxidize.error.place_failed": "§cНе удалось разместить блок!",
+  "autooxidize.error.mining_failed": "§cНе удалось разрушить блок после %d попыток",
+
+
+  "autooxidize.help.title": "§6=== Аргументы команды ===",
+  "autooxidize.help.copper_stage": "§7/copper <stage> §f- Запуск с обычным медным блоком и дефолтными задержками",
+  "autooxidize.help.copper_stage_waxed": "§7/copper <stage> <waxed> §f- Указание типа блока (true/false)",
+  "autooxidize.help.copper_full": "§7/copper <stage> <waxed> <placeDelay> <scrapeDelay> <mineDelay> <cycleDelay> §f- Запуск с настраиваемыми задержками",
+  "autooxidize.help.copper_stop": "§7/copper stop §f- Остановка процесса",
+  "autooxidize.help.copper_help": "§7/copper help §f- Показать эту справку",
+  "autooxidize.help.args_title": "§6=== Значения аргументов ===",
+  "autooxidize.help.stages": "§6Стадии меди: §fNORMAL, EXPOSED, WEATHERED, OXIDIZED",
+  "autooxidize.help.block_type": "§6Тип блока:",
+  "autooxidize.help.block_type_normal": "§7false §f- обычный медный блок",
+  "autooxidize.help.block_type_waxed": "§7true §f- вощеный медный блок",
+  "autooxidize.help.delays": "§6Задержки (в тиках, 1 тик = 1/20 секунды):",
+  "autooxidize.help.place_delay": "§7placeDelay §f- между размещением блоков (2-100)",
+  "autooxidize.help.scrape_delay": "§7scrapeDelay §f- между очистками топором (2-100)",
+  "autooxidize.help.mine_delay": "§7mineDelay §f- между тиками добычи блока (1-20)",
+  "autooxidize.help.cycle_delay": "§7cycleDelay §f- между полными циклами (2-200)"
+}
