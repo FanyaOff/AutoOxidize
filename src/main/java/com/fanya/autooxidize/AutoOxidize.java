@@ -80,7 +80,7 @@ public class AutoOxidize implements ClientModInitializer {
                     if (tickCounter >= scrapeDelay) {
                         Block currentBlock = client.world.getBlockState(currentPos).getBlock();
                         if (!isCopperBlock(currentBlock)) {
-                            client.player.sendMessage(Text.translatable("autooxidize.error.no_copper_after_wax"), false);
+                            client.player.sendMessage(Text.translatable("autooxidize.error.no_copper_after_wax"), true);
                             currentState = ProcessState.IDLE;
                             return;
                         }
@@ -111,7 +111,7 @@ public class AutoOxidize implements ClientModInitializer {
                     if (tickCounter >= placeDelay) {
                         Block currentBlock = client.world.getBlockState(currentPos).getBlock();
                         if (!isCopperBlock(currentBlock)) {
-                            client.player.sendMessage(Text.translatable("autooxidize.error.no_copper_block"), false);
+                            client.player.sendMessage(Text.translatable("autooxidize.error.no_copper_block"), true);
                             currentState = ProcessState.IDLE;
                             return;
                         }
@@ -174,7 +174,7 @@ public class AutoOxidize implements ClientModInitializer {
                     if (tickCounter >= placeDelay) {
                         Block currentBlock = client.world.getBlockState(currentPos).getBlock();
                         if (!isCopperBlock(currentBlock)) {
-                            client.player.sendMessage(Text.translatable("autooxidize.error.no_copper_after_scrape"), false);
+                            client.player.sendMessage(Text.translatable("autooxidize.error.no_copper_after_scrape"), true);
                             currentState = ProcessState.IDLE;
                             return;
                         }
